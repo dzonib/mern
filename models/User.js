@@ -23,9 +23,12 @@ const User = sequelize.define('user', {
         type: Sequelize.STRING,
         allowNull: false
     },
+    avatar: {
+        type: Sequelize.BLOB('medium')
+    },
     date: {
         type: Sequelize.DATE,
-        default: date.now()
+        defaultValue: Sequelize.NOW
     },
 })
 

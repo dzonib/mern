@@ -1,3 +1,4 @@
 {
-    "pgURI": "postgres://dzonib:123456@localhost:5432/devcon2"
+    "pgURI": "postgres://dzonib:123456@localhost:5432/devcon2",
+    "jwtSecret": "mysecrettokenyo"
 }
